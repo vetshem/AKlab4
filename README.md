@@ -55,3 +55,9 @@ rmmod hello2
 ```
 rmmod hello1
 ```
+## Commands for some control:
+___Module variable parameter check___
+```
+cat /sys/module/hello2/parameters/hello
+```
+
