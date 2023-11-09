@@ -60,4 +60,7 @@ ___Module variable parameter check___
 ```
 cat /sys/module/hello2/parameters/hello
 ```
+```
+grep "exported_symbol" /proc/kallsyms
+```
 
